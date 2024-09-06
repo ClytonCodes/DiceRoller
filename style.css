@@ -1,0 +1,98 @@
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root{
+    --background : #FE5F55;
+    --box-colour : #EEF5DB;
+    --text-colour : #4F6367;
+}
+
+*{
+    padding : 0;
+    margin : 0;
+    border : none;
+    font-family: "Acme", sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    display : flex;
+    justify-content: center;
+}
+
+.main{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width : 600px;
+    background-color: var(--box-colour);
+    margin : 20px;
+    border-radius: 10px;
+}
+
+h1{
+    margin : 15px;
+    font-size : 3rem;
+    color: var(--text-colour);
+}
+
+p {
+    color : var(--text-colour);
+    font-size: 1.5rem;
+}
+
+#input{
+    margin : 25px;
+    font-size : 2rem;
+    border-radius: 20px;
+    background-color: var(--box-colour);
+    text-align: center;
+    border-color: #e4958f;
+    border : 5px solid;
+    color : var(--text-colour);
+}
+
+#roll{
+    font-size: 2rem;
+    padding : 4px;
+    width: 100px;
+    border-radius: 15px;
+    margin-bottom : 20px;
+    background-color: rgb(53, 153, 241);
+    color : var(--box-colour);
+}
+
+#roll:hover{
+    background-color: rgba(53, 153, 241, 0.676);
+}
+
+#roll:active{
+    background-color: var(--box-colour);
+    color : rgb(53, 153, 241);
+}
+
+#output-label{
+    margin-bottom : 15px;
+}
+
+#sum{
+    margin-bottom : 15px;
+}
+
+.images{
+    width : 90%;
+    justify-content: center;
+    display : flex;
+    flex-wrap: wrap;
+    margin-bottom : 15px; 
+}
+
+.images img{
+    height : 50px;
+    width : 50px;
+    margin : 5px;
+}
